@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading {
+    color: white;
+    margin: 0 auto;
+    background-color: #f44336;
+    width: 80%;
+}
+
+.inputNotes {
+    background-color: #f44336;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    padding: 30px 40px;
+    gap: 10px;
+}
+
+.inputNotes input {
+    font-size: larger;
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+.inputNotes button {
+    font-size: larger;
+    background-color: #d9d9d9;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 25%;
+    cursor: pointer;
+}
+
+.notes {
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px auto;
+    padding: 10px;
+    background-color: #eee;
+    width: 80%;
+}
+
+.iconsdiv {
+    display: flex;
+    gap: 20px;
+}
+.iconsdiv i{
+    cursor: pointer;
+}
+
+.notes #output {
+    /* background-color: white; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.notes button {
+    font-size: larger;
+    border: none;
+}
+
+.notesContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ticked{
+    background-color: green;
+    color: white;
+}
+.normal{
+    
+}
