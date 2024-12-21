@@ -11,22 +11,46 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="displayNotes()">
+    <div class="main">
+        <div class="inputContainer">
+            <div class="heading">
+                <h1 style="font-weight: 100;">ToDo List </h1>
+            </div>
 
-    <div class="container">
-        <div class="heading">
-            <h1 style="text-align: center; margin-top: 10px;">To Do List</h1>
+            <div class="inputField">
+                <input type="text" name="" id="input" placeholder="What would you like to do?">
+                <button onclick="addNote()">Add Notes</button>
+            </div>
         </div>
-        <div class="inputNotes">
-            <input type="text" id="input" placeholder="Enter Task">
-            <button onclick="addNotes()">Add Notes</button>
-        </div>
 
-        <div id="notesContainer" class="notesContainer">
+        <div class="notesDiv">
+            <h2>Todo List</h2>
+            <div class="notesStatus">
+                <p>List</p>
+                <p>Status</p>
+                <p>Close</p>
+            </div>
 
+            <div class="notesParent" id="notesParent">
+
+                <!-- <div class="notes">
+                <div class="notesText">
+                    <p id="textOutput">Hi</p>
+                </div>
+                <div>
+                    pending
+                <div>
+                <div class=".icons-btn">
+                    <button onclick="editNotesText()"><i class="fa-regular fa-pen-to-square"></i></button>
+                    <button><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div> -->
+
+            </div>
         </div>
     </div>
-    <script src="app.js"></script>
 </body>
+<script src="app.js"></script>
 
 </html>
